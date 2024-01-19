@@ -32,4 +32,6 @@ echo "My car is " . $color . "<br>"; // variabel $color bernilai blue
 
 $x = 17; // jangan menggunakan nama variabel yang tidak memiliki arti
 $age = 17;
-echo "I am "  . $age . " years old.<br>";
+
+echo "I am $age years old.<br>"; // jangan menggunakan variabel seperti ini
+echo "I am " . $age . " years old.<br>"; // gunakan seperti ini
