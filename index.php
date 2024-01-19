@@ -43,3 +43,12 @@ var_dump([2, 4, 6]);
 $x = $y = $z = "orange";
 echo "<br>";
 var_dump($x, $y, $z);
+
+function myTest() {
+  $x = 5; // local scope  
+  echo "<p>Variable x inside function is: $x</p>";
+}
+myTest();
+
+// using x outside the function will generate an error
+echo "<p>Variable x outside function is: $x</p>";
