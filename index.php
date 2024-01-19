@@ -1,5 +1,6 @@
 <?php
 
+echo "<h4>Php Sintaks</h4>";
 echo "Sulfikar Alijun";
 echo "<br>";
 
@@ -21,3 +22,5 @@ echo "My boat is " . $coLOR . "<br>"; // tidak peka
 /*
 ini adalah multi line comment
 */
+
+echo "<h4>Variabel</h4>";
