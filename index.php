@@ -35,3 +35,5 @@ $age = 17;
 
 echo "I am $age years old.<br>"; // jangan menggunakan variabel seperti ini
 echo "I am " . $age . " years old.<br>"; // gunakan seperti ini
+
+var_dump($age); // mengecek nilai dan type data dari suatu variabel
