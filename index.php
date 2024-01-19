@@ -30,10 +30,16 @@ $color = "green";
 $color = "blue";
 echo "My car is " . $color . "<br>"; // variabel $color bernilai blue
 
-$x = 17; // jangan menggunakan nama variabel yang tidak memiliki arti
+$a = 17; // jangan menggunakan nama variabel yang tidak memiliki arti
 $age = 17;
 
 echo "I am $age years old.<br>"; // jangan menggunakan variabel seperti ini
 echo "I am " . $age . " years old.<br>"; // gunakan seperti ini
 
 var_dump($age); // mengecek nilai dan type data dari suatu variabel
+echo "<br>";
+var_dump([2, 4, 6]);
+
+$x = $y = $z = "orange";
+echo "<br>";
+var_dump($x, $y, $z);
