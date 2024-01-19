@@ -6,3 +6,9 @@ echo "Sulfikar Alijun";
 ECHO "Hello World!<br>";
 echo "Hello World!<br>";
 EcHo "Hello World!<br>";
+
+// tetapi peka terhadapa variabel
+$color = "red";
+echo "My car is " . $color . "<br>";
+echo "My house is " . $COLOR . "<br>";
+echo "My boat is " . $coLOR . "<br>";
