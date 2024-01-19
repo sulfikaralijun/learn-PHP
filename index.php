@@ -64,3 +64,14 @@ function myTest2() {
 
 myTest2();
 echo $y; // outputs 15
+echo "<br>";
+
+function myTest3() {
+  static $r = 0; // static digunakan agar nilai $r tetap sama untuk terakhir kali fungsi dipanggil
+  echo $r . "<br>";
+  $r++;
+}
+
+myTest3();
+myTest3();
+myTest3();
