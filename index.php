@@ -24,3 +24,12 @@ ini adalah multi line comment
 */
 
 echo "<h4>Variabel</h4>";
+// variabel
+$color = "red";
+$color = "green";
+$color = "blue";
+echo "My car is " . $color . "<br>"; // variabel $color bernilai blue
+
+$x = 17; // jangan menggunakan nama variabel yang tidak memiliki arti
+$age = 17;
+echo "I am "  . $age . " years old.<br>";
