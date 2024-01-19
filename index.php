@@ -52,3 +52,14 @@ myTest(); // untuk mengeksekusi function
 
 // using x outside the function will generate an error
 echo "<p>Variable x outside function is: $x</p>";
+
+$x = 5;
+$y = 10;
+
+function myTest2() {
+  global $x, $y;
+  $y = $x + $y; // global scope, artinya variabel y bukan lagi 10 tapi 15
+}
+
+myTest2();
+echo $y; // outputs 15
