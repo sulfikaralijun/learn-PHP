@@ -58,7 +58,7 @@ $y = 10;
 
 function myTest2() {
   global $x, $y;
-  $y = $x + $y; // global scope, artinya variabel y bukan lagi 10 tapi 15
+  $y = $x + $y; // global scope, artinya variabel y bukan lagi 10 tapi 15 (5 + 10)
 }
 
 myTest2();
